@@ -20,6 +20,7 @@ public class testAll {
 		System.out.print("nm ((child))");
 		((normalChild) nm).print();
 		System.out.print("nm (private no child)");
+		//cannot use nm.pubic(); 
 		((normalChild)nm).pubic();
 		testAll ta = new testTest();
 		ta.print();
